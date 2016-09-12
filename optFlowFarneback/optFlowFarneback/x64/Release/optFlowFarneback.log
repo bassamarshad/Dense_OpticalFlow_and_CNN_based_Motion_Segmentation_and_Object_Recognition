@@ -1,0 +1,20 @@
+﻿Build started 8/9/2016 8:33:59 PM.
+     1>Project "E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\optFlowFarneback\optFlowFarneback.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"E:\opencv-3.1.0\opencv\install\x64\vc14\..\..\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\opticalflowtrackers-finalprojectbrownsvilleteam\optflowfarneback\optflowfarneback\DNN.h(133): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>Source.cpp(58): warning C4305: 'initializing': truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\x64\Release\optFlowFarneback.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\opencv-3.1.0\opencv\install\x64\vc14\lib" opencv_core310.lib opencv_ts310.lib opencv_video310.lib opencv_videoio310.lib opencv_tracking310.lib opencv_highgui310.lib opencv_imgproc310.lib opencv_imgcodecs310.lib opencv_features2d310.lib opencv_calib3d310.lib opencv_optflow310.lib opencv_dnn310.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\x64\Release\optFlowFarneback.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\x64\Release\optFlowFarneback.lib" /MACHINE:X64 x64\Release\Source.obj
+         Generating code
+         0 of 571 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         optFlowFarneback.vcxproj -> E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\x64\Release\optFlowFarneback.exe
+     1>Done Building Project "E:\OpticalFlowTrackers-FinalProjectBrownsvilleTeam\optFlowFarneback\optFlowFarneback\optFlowFarneback.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.70

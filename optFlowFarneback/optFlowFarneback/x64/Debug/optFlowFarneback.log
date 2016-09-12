@@ -1,0 +1,14 @@
+﻿Build started 5/10/2016 1:52:09 PM.
+     1>Project "C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\optFlowFarneback\optFlowFarneback.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\opencv-3.1.0-cuda\build\install\x64\vc12\..\..\include" /Zi /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(51): warning C4305: 'initializing' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\x64\Debug\optFlowFarneback.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\opencv-3.1.0-cuda\build\install\x64\vc12\lib" opencv_core310d.lib opencv_ts310d.lib opencv_optflow310d.lib opencv_video310d.lib opencv_videoio310d.lib opencv_tracking310d.lib opencv_flann310d.lib opencv_highgui310d.lib opencv_imgproc310d.lib opencv_imgcodecs310d.lib opencv_xfeatures2d310d.lib opencv_features2d310d.lib opencv_calib3d310d.lib opencv_cudafilters310d.lib opencv_cudaimgproc310d.lib opencv_cudastereo310d.lib opencv_cudaarithm310d.lib opencv_cudaoptflow310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\x64\Debug\optFlowFarneback.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\x64\Debug\optFlowFarneback.lib" /MACHINE:X64 x64\Debug\Source.obj
+         optFlowFarneback.vcxproj -> C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\x64\Debug\optFlowFarneback.exe
+     1>Done Building Project "C:\Users\UTRGVCS\Documents\Visual Studio 2013\Projects\optFlowFarneback\optFlowFarneback\optFlowFarneback.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86
